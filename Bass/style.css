@@ -1,0 +1,113 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+.jumbotron {
+    background: url(https://s3.amazonaws.com/codecademy-content/projects/bass/bg.jpg) no-repeat center center;
+    background-size: cover;
+    margin-bottom: 0px;
+}
+
+.jumbotron li{
+    display: inline-block;
+}
+
+.jumbotron ul{
+    margin-top: 40px;
+}
+
+.jumbotron a{
+    color: white;
+    padding-right: 28px;
+}
+
+.jumbotron .btn{
+    padding: 7.5px 30px;
+    border-radius: 0px;
+    margin-right: 10px;
+    background-color: #FF003D;
+    border: none;
+    color: white;
+}
+
+.main {
+    color: white;
+    margin-top: 60px;
+}
+
+.main h3{
+    margin-top: 11px; 
+    font-size: 21px;
+    line-height: 30px;
+    margin-bottom: 160px;
+}
+
+.supporting-1,
+.supporting-3{
+    background-color: #161718;
+    padding: 100px;
+    color: white;
+}
+
+.supporting-2{
+    background-color: black;
+    padding: 60px;
+    color: white;
+}
+
+.supporting-1 h4,
+.supporting-2 h4,
+.supporting-3 h4{
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 20px;
+}
+
+.supporting-1 img,
+.supporting-3 img
+{
+    margin-left: 85px;
+}
+
+.supporting-2 h2
+,.supporting-2 h4{
+   margin-left: 80px;
+}
+
+.supporting-4 {
+    background: url(https://s3.amazonaws.com/codecademy-content/projects/bass/feature.jpg) no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    padding: 150px;
+    color:white;
+}
+
+.footer {
+    background-color: black;
+    padding: 50px;
+}
+
+.footer .row{
+    padding-left: 100px;
+    color: white;
+}
+
+.footer ul{
+    padding: 0px;
+}
+.footer li{
+    display: block;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.footer li a{
+    color: white;
+    font-size: 12px;
+    
+}

@@ -1,0 +1,146 @@
+html, body {
+  font-family: "Oxygen", sans-serif; 
+  font-weight: 300; 
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 970px;
+  padding-left: 10px;
+  padding-right: 10px;    
+}
+
+.supporting {
+  background-image: url(s3.amazonaws.com/codecademy-content/projects/bolt-network/diagmonds_@2X.png);
+  background-size: 141px 142px;
+}
+
+.jumbotron {
+    background-color: black;
+    text-align: center;
+    margin: 0 auto;
+    height: 600px;
+}
+
+.jumbotron ul li{
+    display: inline-block;
+    font-size: 15px;
+    margin-right:  40px;
+    color: white;
+}
+
+.jumbotron .btn {
+    color: #0393ff;
+    background-color: transparent;
+    padding: 8px 18px;
+    border-color: #0393ff;
+    border-radius: 2px;
+}
+
+.jumbotron h1 {
+    margin-top: 80px;
+    font-size: 63px;
+    color: white;
+    font-weight: lighter;
+    margin-bottom: 40px;
+}
+
+.form-inline {
+    margin-top: 80px;
+}
+
+.form-control {
+    background-color: transparent;
+    border: none;
+    border-radius: 0px;
+    border-bottom: 1px solid white;
+    font-size: 18px;
+    box-shadow: none;
+    min-width: 400px;
+    margin-right: 20px;
+}
+
+
+
+.form-control:focus{
+  box-shadow: none;  
+}
+
+.supporting {
+    text-align: center;
+    color: #0393ff;
+    background: url(https://s-media-cache-ak0.pinimg.com/originals/9d/95/57/9d9557262d165b9374d7c8259531637e.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+
+.supporting .container {
+    padding-bottom: 80px;
+}
+
+.supporting h2 {
+    margin-top: 70px;
+}
+
+.supporting p {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.supporting .row {
+   padding-top: 10px;  
+       
+}
+
+.thumbnail {
+    border-radius: 0px;
+    border:none !important;
+    background: transparent !important;
+    box-shadow:none !important;
+    padding: 0px;
+}
+
+.feature {
+    background: url(https://s3.amazonaws.com/codecademy-content/projects/bolt-network/feature.jpg) no-repeat center center;
+    background-size: cover;
+    text-align: center;
+}
+
+.feature .container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.feature h2 {
+    color: #0393ff;
+}
+
+.feature p {
+    color: white;
+    font-size: 18px;
+}
+
+.footer {
+    background-color: black;
+    
+}
+.footer .row{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.footer h4 {
+    color: white;
+}
+
+.footer ul {
+    padding-left: 0px;
+}
+
+.footer li {
+    display: block;
+    text-align: left;
+    color:  #0393ff;
+}
+
+  
